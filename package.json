@@ -1,0 +1,65 @@
+{
+  "name": "redux-antd",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@manaflair/redux-batch": "^1.0.0",
+    "@types/bootstrap": "^4.3.1",
+    "@types/jest": "24.0.16",
+    "@types/node": "^12.6.8",
+    "@types/react": "16.8.24",
+    "@types/react-dom": "16.8.5",
+    "@types/react-redux": "^7.1.2",
+    "@types/react-router-dom": "^5.1.2",
+    "@types/redux": "^3.6.0",
+    "antd": "^4.0.0-alpha.7",
+    "babel-plugin-import": "^1.12.2",
+    "connected-react-router": "^6.5.2",
+    "customize-cra": "^0.8.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.15",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-app-rewired": "^2.1.4",
+    "react-bootstrap": "^1.0.0-beta.11",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-starter-kit": "^1.0.1",
+    "typescript": "^3.7.2",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.137",
+    "@types/redux-logger": "^3.0.7",
+    "@types/uuid": "^3.4.5",
+    "@types/webpack": "^4.39.8",
+    "@types/webpack-env": "^1.14.1"
+  }
+}
